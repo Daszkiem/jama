@@ -1,0 +1,65 @@
+body, html{
+    height: 50%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.img{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img1{
+    background-image: url('../img/Photo%20by%20Guduru%20Ajay%20bhargav%20from%20Pexels.jpg');
+    min-height: 100%;
+}
+
+.img2{
+    background-image: url('../img/Photo%20by%20Juhasz%20Imre%20from%20Pexels.jpg');
+    min-height: 250%;
+}
+
+.img3{
+    background-image: url('../img/Photo%20by%20Kozymeii%20Kong%20from%20Pexels.jpg');
+    min-height: 250%;
+}
+
+.section{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.light{
+    background-color:grey;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: grey;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.border{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
